@@ -1,12 +1,11 @@
-cat << 'EOF' > /root/setup-distro.sh
 #!/bin/bash
 set -e
 
 # ==========================================
-# KONFIGURASI KELOMPOK 1
+# KONFIGURASI KELOMPOK 5
 # ==========================================
 DISTRO_NAME="Coresync"
-DISTRO_DESC="Coresync - Distro Lab Jaringan Kelompok 1"
+DISTRO_DESC="Coresync - Distro Lab Jaringan Kelompok 5"
 TIMEZONE="Asia/Makassar"
 
 echo "=== [1/7] Update Repositori ==="
@@ -162,9 +161,3 @@ EOC
 echo "=== Bersihkan Cache APT ==="
 apt clean
 rm -rf /tmp/* /var/lib/apt/lists/*
-
-echo "SELESAI! Silakan klik Next di Cubic dan pilih kernel 5.15.0-xxx di tab Kernel."
-EOF
-
-chmod +x /root/setup-distro.sh
-/root/setup-distro.sh
