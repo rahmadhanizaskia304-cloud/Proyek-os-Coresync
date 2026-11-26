@@ -3,10 +3,10 @@ cat << 'EOF' > /root/setup-distro.sh
 set -e
 
 # ==========================================
-# KONFIGURASI KELOMPOK 1 (UBAH SESUAI TIM)
+# KONFIGURASI KELOMPOK 1
 # ==========================================
-DISTRO_NAME="NetLabOS"
-DISTRO_DESC="NetLabOS - Distro Lab Jaringan Kelompok 1"
+DISTRO_NAME="Coresync"
+DISTRO_DESC="Coresync - Distro Lab Jaringan Kelompok 1"
 TIMEZONE="Asia/Makassar"
 
 echo "=== [1/7] Update Repositori ==="
